@@ -35,16 +35,12 @@
 .nav, .technical-nav {
     font-size: 1.5rem;
     font-weight: bold;
+    
+    display: grid;
 }
 
 .nav {
     margin: 75px 0px;
-
-    display: grid;
-}
-
-.technical-nav {
-    display: grid;
 }
 
 .main {
