@@ -39,6 +39,7 @@
 .nav-icon {
     width: 1.15em;
     height: 1.15em;
+    margin: 0 .75em;
 }
 
 .nav, .technical-nav {
