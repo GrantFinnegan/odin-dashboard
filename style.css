@@ -28,6 +28,25 @@
     grid-area: sidebar;
 }
 
+.sidebar ul {
+    list-style-type: none;
+}
+
+.nav, .technical-nav {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.nav {
+    margin: 75px 0px;
+
+    display: grid;
+}
+
+.technical-nav {
+    display: grid;
+}
+
 .main {
     background-color: grey;
 
