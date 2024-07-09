@@ -14,12 +14,21 @@
         "sidebar main";
 }
 
+
+
 .header {
     background-color: lightgrey;
 
     /* grid item properties */
     grid-area: header;
+
+    /* grid container properties */
+    display: grid;
+    grid-template-columns: 5fr 3fr;
+    grid-template-rows: 2fr 3fr;
 }
+
+
 
 .sidebar {
     background-color: aqua;
@@ -53,6 +62,8 @@
 .nav {
     margin: 75px 0px;
 }
+
+
 
 .main {
     background-color: grey;
