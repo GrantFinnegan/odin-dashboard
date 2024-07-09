@@ -32,6 +32,10 @@
     list-style-type: none;
 }
 
+.sidebar li {
+    height: 1.5em;
+}
+
 .nav, .technical-nav {
     font-size: 1.5rem;
     font-weight: bold;
