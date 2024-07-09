@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    min-height: 100vh;
+
+    display: grid;
+    grid-template-columns: 300px 1fr;
+    grid-template-rows: 200px 1fr;
+    grid-template-areas: 
+        "sidebar header"
+        "sidebar main";
+}
+
+.header {
+    background-color: lightgrey;
+
+    /* grid item properties */
+    grid-area: header;
+}
+
+.sidebar {
+    background-color: aqua;
+
+    /* grid item properties */
+    grid-area: sidebar;
+}
+
+.main {
+    background-color: grey;
+
+    /* grid item properties */
+    grid-area: main;
+}
