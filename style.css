@@ -9,10 +9,6 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-div {
-    border: 1px solid black;
-}
-
 .container {
     min-height: 100vh;
 
