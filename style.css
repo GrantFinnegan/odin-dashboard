@@ -33,6 +33,29 @@ div {
     grid-template-rows: 2fr 3fr;
 }
 
+.search-form {
+    padding: 0 15px;
+
+    display: flex;
+    align-items: center;
+}
+
+.search-form > img {
+    width: 2rem;
+    height: 2rem;
+
+    flex: 0 0 auto;
+}
+
+.search-form > input {
+    height: 2rem;
+    font-size: 1rem;
+    padding: 0 1.5ch;
+    border-radius: 1rem;
+
+    flex: 1 1 auto;
+}
+
 
 
 .sidebar {
