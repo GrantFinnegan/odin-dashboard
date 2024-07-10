@@ -27,7 +27,7 @@ div {
 
 
 .header {
-    background-color: lightgrey;
+    background-color: white;
 
     /* grid item properties */
     grid-area: header;
@@ -168,7 +168,7 @@ div {
 
 
 .main {
-    background-color: grey;
+    background-color: lightgrey;
 
     /* grid item properties */
     grid-area: main;
