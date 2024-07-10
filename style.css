@@ -56,6 +56,14 @@ div {
     flex: 1 1 auto;
 }
 
+.account-info {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    gap: 30px;
+    padding: 0 30px;
+}
+
 .notification-icon {
     height: 2rem;
     width: 2rem;
@@ -64,6 +72,13 @@ div {
 .profile-icon {
     height: 2.5rem;
     width: 2.5rem;
+    border-radius: 50%;
+    border: 1px solid black;
+}
+
+.account-info > span {
+    font-size: 1.15rem;
+    font-weight: bold;
 }
 
 .main-btn-section {
