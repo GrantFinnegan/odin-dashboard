@@ -81,6 +81,36 @@ div {
     font-weight: bold;
 }
 
+.greeting {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    grid-template-rows: 1fr 1fr;
+    column-gap: 15px;
+    padding: 0 15px;
+}
+
+.greeting > img {
+    height: 75%;
+    aspect-ratio: 1;
+    border-radius: 50%;
+    border: 1px solid black;
+
+    grid-row: 1 / 3;
+    align-self: center;
+}
+
+.greeting > .greeting-message {
+    align-self: end;
+    padding-bottom: .5em;
+    font-size: .8rem;
+    font-weight: bold;
+}
+
+.greeting > .user-name-display {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
 .main-btn-section {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
