@@ -64,6 +64,13 @@ div {
     padding: 0 30px;
 }
 
+.main-btn-section > button {
+    height: 2rem;
+    border-radius: 1rem;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
 
 .sidebar {
     background-color: aqua;
