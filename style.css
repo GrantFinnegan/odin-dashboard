@@ -56,6 +56,13 @@ div {
     flex: 1 1 auto;
 }
 
+.main-btn-section {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+    gap: 30px;
+    padding: 0 30px;
+}
 
 
 .sidebar {
