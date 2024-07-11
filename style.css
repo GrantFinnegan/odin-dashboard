@@ -234,3 +234,13 @@ body {
 .announcement-card p{
     font-size: .8rem;
 }
+
+
+.trending-projects-container {
+    border-radius: 8px;
+    background-color: white;
+
+    display: grid;
+    gap: 15px;
+    padding: 30px;
+}
