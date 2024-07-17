@@ -253,6 +253,7 @@ body {
     padding: 30px;
     border-left: 8px solid var(--highlight);
     border-radius: 8px;
+    box-shadow: 4px 4px 8px darkgray;
 
     display: flex;
     flex-direction: column;
@@ -293,6 +294,7 @@ body {
 .announcement-card-container {
     background-color: var(--light-background);
     border-radius: 8px;
+    box-shadow: 4px 4px 8px darkgray;
 
     display: grid;
     grid-template-rows: repeat(3fr);
@@ -318,6 +320,7 @@ body {
 .trending-projects-container {
     border-radius: 8px;
     background-color: var(--light-background);
+    box-shadow: 4px 4px 8px darkgray;
 
     display: grid;
     gap: 15px;
