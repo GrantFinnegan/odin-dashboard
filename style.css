@@ -261,7 +261,7 @@ body {
 
     display: grid;
     grid-auto-flow: column;
-    gap: 30px;
+    gap: 15px;
 }
 
 .project-interactions > button {
