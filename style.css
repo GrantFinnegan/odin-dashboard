@@ -186,12 +186,17 @@ body {
     display: grid;
 }
 
+.sidebar li {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 15px;
+    padding: 5px 15px;
+}
 
 .nav-icon {
     width: 1.15em;
     height: 1.15em;
-    margin: 0 .75em;
-    vertical-align: middle;
 }
 
 .nav {
