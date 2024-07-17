@@ -5,6 +5,22 @@
     font: inherit;
 }
 
+:root {
+    /* background colors */
+    --light-background: white;
+    --dark-background: lightgrey;
+    --sidebar-background: aqua;
+
+    /* misc colors */
+    --highlight: orange;
+    --interact: aqua;
+
+    /* text colors */
+    --dark-text: black;
+    --light-text: white;
+    --faded-text: lightgrey;
+}
+
 body {
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -23,7 +39,7 @@ body {
 
 
 .header {
-    background-color: white;
+    background-color: var(--light-background);
 
     /* grid item properties */
     grid-area: header;
@@ -129,7 +145,7 @@ body {
 
 
 .sidebar {
-    background-color: aqua;
+    background-color: var(--sidebar-background);
 
     /* grid item properties */
     grid-area: sidebar;
@@ -164,7 +180,7 @@ body {
 
 
 .main {
-    background-color: lightgrey;
+    background-color: var(--dark-background);
 
     /* grid item properties */
     grid-area: main;
@@ -191,9 +207,9 @@ body {
 }
 
 .project-card {
-    background-color: white;
+    background-color: var(--light-background);
     padding: 30px;
-    border-left: 8px solid orange;
+    border-left: 8px solid var(--highlight);
     border-radius: 8px;
 }
 
@@ -208,7 +224,7 @@ body {
 }
 
 .announcement-card-container {
-    background-color: white;
+    background-color: var(--light-background);
     border-radius: 8px;
 
     display: grid;
@@ -233,7 +249,7 @@ body {
 
 .trending-projects-container {
     border-radius: 8px;
-    background-color: white;
+    background-color: var(--light-background);
 
     display: grid;
     gap: 15px;
@@ -266,5 +282,5 @@ body {
 
 .trending-project > .project-description {
     font-size: 1rem;
-    color: grey;
+    color: var(--faded-text);
 }
