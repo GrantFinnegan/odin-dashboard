@@ -40,6 +40,8 @@ body {
 
 .header {
     background-color: var(--light-background);
+    z-index: 1;
+    box-shadow: 0px 4px 8px darkgray;
 
     /* grid item properties */
     grid-area: header;
@@ -159,6 +161,9 @@ body {
 .sidebar {
     background-color: var(--sidebar-background);
     color: var(--light-text);
+
+    /* prevents box-shadow on header from spilling over onto sidebar */
+    z-index: 2;
 
     /* grid item properties */
     grid-area: sidebar;
