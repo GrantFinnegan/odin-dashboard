@@ -51,10 +51,11 @@ body {
 }
 
 .search-form {
-    padding: 0 15px;
+    padding: 0 30px;
 
     display: flex;
     align-items: center;
+    gap: 15px;
 }
 
 .search-form > img {
