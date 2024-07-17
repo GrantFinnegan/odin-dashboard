@@ -70,8 +70,15 @@ body {
     font-size: 1rem;
     padding: 0 1.5ch;
     border-radius: 1rem;
+    border: none;
+    background-color: var(--dark-background);
 
     flex: 1 1 auto;
+}
+
+.search-form > input:focus {
+    outline: none;
+    border: 2px solid var(--interact);
 }
 
 .account-info {
