@@ -247,6 +247,10 @@ body {
     font-weight: bold;
 }
 
+.project-card > p {
+    color: var(--faded-text);
+}
+
 .announcements {
     margin-bottom: 30px;
     display: grid;
@@ -273,6 +277,7 @@ body {
 
 .announcement-card p{
     font-size: .8rem;
+    color: var(--faded-text);
 }
 
 
