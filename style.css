@@ -256,9 +256,20 @@ body {
     flex: 1 0 auto;
 }
 
-.project-card > .project-interactions {
-    border: 1px solid black;
+.project-interactions {
     align-self: end;
+
+    display: grid;
+    grid-auto-flow: column;
+    gap: 30px;
+}
+
+.project-interactions > button {
+    height: 1.5rem;
+    background-color: inherit;
+    border: none;
+    min-width: 1.5rem;
+    cursor: pointer;
 }
 
 .announcements {
