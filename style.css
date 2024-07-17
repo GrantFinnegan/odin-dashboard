@@ -111,7 +111,7 @@ body {
     grid-template-columns: auto 1fr;
     grid-template-rows: 1fr 1fr;
     column-gap: 15px;
-    padding: 0 15px;
+    padding: 0 30px;
 }
 
 .greeting > img {
