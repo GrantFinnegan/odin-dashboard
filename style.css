@@ -153,6 +153,22 @@ body {
     grid-area: sidebar;
 }
 
+.logo-section {
+    font-size: 2rem;
+    font-weight: bold;
+
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 15px;
+    padding: 15px;
+}
+
+.logo-section > img {
+    height: 3rem;
+    width: 3rem;
+}
+
 .sidebar ul {
     list-style-type: none;
 }
