@@ -18,7 +18,7 @@
     /* text colors */
     --dark-text: black;
     --light-text: white;
-    --faded-text: lightgrey;
+    --faded-text: grey;
 }
 
 body {
