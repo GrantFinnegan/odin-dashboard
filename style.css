@@ -240,6 +240,9 @@ body {
     padding: 30px;
     border-left: 8px solid var(--highlight);
     border-radius: 8px;
+
+    display: flex;
+    flex-direction: column;
 }
 
 .project-card > h3 {
@@ -249,6 +252,12 @@ body {
 
 .project-card > p {
     color: var(--faded-text);
+
+    flex: 1 0 auto;
+}
+
+.project-card > .project-interactions {
+    border: 1px solid black;
 }
 
 .announcements {
