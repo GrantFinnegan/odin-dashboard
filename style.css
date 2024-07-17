@@ -9,11 +9,11 @@
     /* background colors */
     --light-background: white;
     --dark-background: lightgrey;
-    --sidebar-background: aqua;
+    --sidebar-background: #0099ff;
 
     /* misc colors */
     --highlight: orange;
-    --interact: aqua;
+    --interact: #0099ff;
 
     /* text colors */
     --dark-text: black;
